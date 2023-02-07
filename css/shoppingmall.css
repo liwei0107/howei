@@ -19,7 +19,7 @@
 /* 商品陳列方式 */
 .goods_a:hover {
         
-    box-shadow: 4px 4px 1px 1px rgba(77, 77, 77, 70%);
+    box-shadow: 2px 4px 11px 4px rgb(77 77 77 / 50%);
     background-color: #FFF;
     
 
@@ -33,19 +33,35 @@
     max-width: 400px;
     
 }
+.goods_space_div {
+    width: initial;
+   
+    
+}
 
 .goods_a {
     box-shadow: none;
-    margin-left: 3px;
-    margin-top: 3px;
+    margin: 3px auto 0 auto;
     width:fit-content;
     margin-bottom: 10px;
+    padding-top: 10px;
+}
+.goods_space_a{
+    max-width: 415px;
+    visibility: hidden;
+    margin: 3px auto 0 auto;
+  
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 .container{
-    justify-content: right;
-    width: fit-content;
-    margin-right: 0;
+    max-width:100%;
+    width: 100%;
+    margin-top: 88px;
+    background-color: #FFF;
+    padding-top: 5px;
 }
+
 .container .row{
     max-width:100%;
     width: fit-content;
@@ -70,10 +86,6 @@
     flex:none;
     }
 
-.container{
-    margin-top: 88px;
-    margin-left: 0; 
-}
 .fa-row{
     flex-wrap: nowrap;
 }
